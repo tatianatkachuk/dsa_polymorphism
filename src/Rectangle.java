@@ -10,9 +10,6 @@ public class Rectangle extends Figure{
         this.h = h; 
     }
 
-    // public double rectangleArea() {
-    //     return this.base * this.h;
-    // }
 
     public String printParams() {
         double figArea = this.area();
@@ -20,8 +17,12 @@ public class Rectangle extends Figure{
     }
 
     @Override
-    public double area() {   // area()) ???
-        // TODO Auto-generated method stub
+    public double area() {   
         return this.base * this.h;
+    }
+
+    @Override
+    public String toString() {
+        return printParams();
     }
 }

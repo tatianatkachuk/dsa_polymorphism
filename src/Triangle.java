@@ -9,10 +9,7 @@ public class Triangle extends Figure{
         this.base = base;
         this.h = h; 
     }
-    
-    // public double triangleArea() {
-    //     return (this.base * this.h)/2;
-    // }
+
 
     public String printParams() {
         double figArea = this.area();
@@ -21,7 +18,11 @@ public class Triangle extends Figure{
 
     @Override
     public double area() {
-        // TODO Auto-generated method stub
         return (this.base * this.h)/2;
     }   
+
+    @Override
+    public String toString() {
+        return printParams();
+    }
 }

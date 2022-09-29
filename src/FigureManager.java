@@ -25,7 +25,7 @@ public class FigureManager{
     public static void main(String[] args) {
         Figure[] figuresvector = new Figure[4];
         figuresvector[0] = new Triangle(5,3);
-        figuresvector[1] = new Circle(15);
+        figuresvector[1] = new Circle(150);
         figuresvector[2] = new Rectangle(5,3);
         figuresvector[3] = new Rectangle(5,5);
 
